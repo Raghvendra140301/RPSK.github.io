@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&family=Pacifico&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,400;1,500&display=swap');
+
+img{
+    width: 160px;
+    margin: -10px;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu';
+}
+.nav-link{
+    font-size: 16px;
+    margin: 10px;
+    color: black !important;
+    font-family: 'Roboto';
+}
+.nav-link:hover{
+    color:aqua !important;
+}
+.active .nav-link{
+    color: rgb(31, 118, 248) !important;
+}
+.menu-right-btn{
+    padding: 13px 26px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition-property: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color: white;
+    background-color: aqua;
+}
+.site-content{
+background-image: url('stock/atmospheric.png');   
+background-attachment: fixed;
+background-size: cover;     
+}
+.site-title, .site-desc{
+    color: white;
+    font-family: 'Pacifico';
+}
+.site-title{
+    margin-top: 30%;
+    font-size: 50px;
+}
+.site-desc{
+    margin-bottom: 15%;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.navbar{
+    background-color: darkgray;
+    padding-bottom: -50px;
+    
+}
+.site-btn1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    padding-right: 45px;
+}
+.site-btn2{
+background-color: white;
+
+}
+.card-img-top{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.section-1 .card-text{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.section-1{
+    margin-bottom: 8%;
+}
+
+.col-md-4{
+    width: 20rem;
+}
+
+.section-2 .container-fluid{
+    background-image: url('stock/awesome\ wallpaper.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading{
+    margin-top: 10%;
+    margin-bottom: 4%;
+    font-family: 'Fredoka';
+    font-weight: bold;
+    color: black;
+}
+.section-2 .para{
+    margin-bottom: 5%;
+}
+
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+    margin-left: 70%;
+}
+
+.section-3 {
+    margin-top: 6%;
+}
+
+.section-3 i{
+    color: #00E8E8;
+}
+
+.section-3 .p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.section-4{
+    margin-top: 8%;
+}
+.section-4 .Image-7{
+    width: 100px;
+}
+.city{
+    width: 350px;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+
+.para-1{
+    color: whitesmoke;
+}
+
+.section-4 .row, .col-md-7, .col-md-5{
+    margin-top: 10%;
+    font-family: Roboto;
+}
+
+.section-4 .para-1{
+    font-size: 23px;
+}
+
+.social i{
+color: #EF5651;
+font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .city{
+        width: 150;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+    }
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .section-2 .btn{
+        margin-left: 10%;
+        padding: -4% -2%;
+        width: 50%;
+    }
+
+    .site-content .site-btn1{
+        margin-left: 15%;
+    }
+    .section-1 .heading-1, .section-1 .heading-2{
+        font-size: 20px;
+    }
+    .section-1 .col-md-4{
+    padding: 5%;        
+    margin-left: 8%;
+    width: 15rem;
+    }
+    .section-1 .card{
+        width: 15rem;
+    }
+    .city{
+        width: 70%;
+    }
+    .site-content{
+        background-size: 300%;
+        background-position-x: -10rem;
+    }
+    .section-2 .container-fluid{
+        background-size: 300%;
+        background-position-x: -10rem;
+    }
+    .section-4 .col-md-5{
+        padding: 0% 15%;
+        font-size: 10px;
+    }
+    .col-md-5 .para-1{
+            font-size: 15px;
+    }
+
+}
